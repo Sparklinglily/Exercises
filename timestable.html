@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>Document</title>
+</head>
+<style>
+  table,tr,td{
+    border:2px solid aqua;
+    border-collapse: collapse;
+    padding: 10px;
+
+  }
+ 
+</style>
+<body>
+  
+  <table> 
+  
+    
+  <script>
+    // for loop example 
+
+    
+    for(var i=2; i<=12 ; i++) {
+
+    document.write('2 x' + i +' =  '+ (2*i) +'<br><br>');
+
+  }
+  
+  var ii;
+  for(ii=2; ii<=12; ii++){
+    document.write('<tr><td>2</td>  <td> x </td> <td>' +ii  +' </td>  <td> = </td>  <td> '+ (2*ii) +'</td></tr>');  
+  }
+  var d;
+  for(d=2; d<=12; d++){
+    document.write('<tr><td>2</td>  <td> x </td> <td>' +d +' </td>  <td> =</td>  <td> '+ (2*d) +'</td></tr>');  
+  }
+  var c;
+  for(c=2; c<=12; c++){
+    document.write('<tr><td>2</td>  <td> x </td> <td>' +c +' </td>  <td> =</td>  <td> '+ (2*c) +'</td></tr>'); } 
+
+  var e;
+  for(e=2; e<=12; e++){
+    document.write('<tr><td>2</td>  <td> x </td> <td>' +e +' </td>  <td> =</td>  <td> '+ (2*e) +'</td></tr>');  
+  }
+
+  
+
+  var date = new Date();
+  var day = date.getDay();
+
+  document.write(day &&  date);
+
+  switch(day){
+    case 1:
+      document.write('Today is Monday');
+      break;
+    case 2:
+      document.write('Today is Tuesday');
+      break;
+      case 3:
+      document.write('Today is Wednesday');
+      break;
+    case 4:
+      document.write('Today is Thursday');
+      break;
+      case 5:
+      document.write('Today is Friday');
+      break;
+      case 6:
+      document.write('Today is Saturday');
+      break;
+    case 7:
+      document.write('Today is Sunday')
+  }
+
+</script>
+
+</table>
+  
+</body>
+</html>
